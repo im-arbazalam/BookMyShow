@@ -28,5 +28,5 @@ Email Notifications: Users receive email notifications for successful bookings a
 # Project Working FlowChart
 ![BookMyShow](https://github.com/im-arbazalam/BookMyShow/assets/114339920/9092193c-bb53-42b4-99d6-00dbdc7a0c9f)
 
-
-    
+# Getting Started
+To set up the project on your local machine, follow these steps:
