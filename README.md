@@ -41,7 +41,7 @@ This project uses MySQL as the database. Follow these steps to set up the databa
 1.  Update the database configuration in application.properties file.
 
 # API Documentation
-The API documentation for this project can be found at http://localhost:8080/swagger-ui.html. It provides 
+The API documentation for this project can be found at http://localhost:8080/swagger-ui.html. It provides   
 detailed information about each API, including request/response formats and parameters.
 
 # Acknowledgments
