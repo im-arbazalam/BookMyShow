@@ -30,3 +30,10 @@ Email Notifications: Users receive email notifications for successful bookings a
 
 # Getting Started
 To set up the project on your local machine, follow these steps:
+
+1.  Clone the repository: git clone https://github.com/im-arbazalam/BookMyShow.git
+1.  Navigate to the project directory: cd bookmyshow
+1.  Configure the database settings in application.properties file.
+1.  Build the project using Maven: mvn clean install
+1.  Run the application: mvn spring-boot:run
+1.  The application will be accessible at http://localhost:8080.
