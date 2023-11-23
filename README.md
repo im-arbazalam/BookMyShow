@@ -26,5 +26,7 @@ Email Notifications: Users receive email notifications for successful bookings a
 + **SMTP Server (for sending email notifications)**
 
 # Project Working FlowChart
+![BookMyShow](https://github.com/im-arbazalam/BookMyShow/assets/114339920/9092193c-bb53-42b4-99d6-00dbdc7a0c9f)
+
 
     
