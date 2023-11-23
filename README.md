@@ -1,6 +1,6 @@
 # BookMyShow
-This project is a Spring Boot implementation of the backend APIs for a ticket booking system similar to the popular platform "BookMyShow".
-It provides a set of RESTful APIs that enable client applications to interact with the ticket booking system and perform various operations.
+**This project is a Spring Boot implementation of the backend APIs for a ticket booking system similar to the popular platform "BookMyShow".
+It provides a set of RESTful APIs that enable client applications to interact with the ticket booking system and perform various operations.**
 
 # Features
 +  **User Registration:** Users can create an account, log in, and manage their profile information.
@@ -41,8 +41,13 @@ This project uses MySQL as the database. Follow these steps to set up the databa
 1.  Update the database configuration in application.properties file.
 
 # API Documentation
-The API documentation for this project can be found at http://localhost:8080/swagger-ui.html. It provides detailed information about each API, including request/response formats and parameters.
+The API documentation for this project can be found at http://localhost:8080/swagger-ui.html. It provides 
+detailed information about each API, including request/response formats and parameters.
 
 # Acknowledgments
 +  Spring Boot  
 +  MySQL
+  
+# Contributing
+Contributions to the project are welcome. If you find any bugs or have suggestions for improvement, please open an
+issue or submit a pull request.
