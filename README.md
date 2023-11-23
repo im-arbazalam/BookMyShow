@@ -24,4 +24,7 @@ Email Notifications: Users receive email notifications for successful bookings a
 + **MySQL (as the database)**
 + **Maven (for dependency management)**
 + **SMTP Server (for sending email notifications)**
+
+# Project Working FlowChart
+
     
