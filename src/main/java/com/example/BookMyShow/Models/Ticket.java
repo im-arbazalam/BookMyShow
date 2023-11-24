@@ -22,4 +22,12 @@ public class Ticket {
     @CreationTimestamp
     private Date bookedAt;
 
+    @ManyToOne
+    @JoinColumn
+    private Show show;
+
+    @ManyToOne
+    @JoinColumn
+    private User user;
+
 }

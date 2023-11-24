@@ -22,4 +22,8 @@ public class ShowSeat {
     private boolean isAvailable;
 
     private boolean isFoodAttached;
+
+    @ManyToOne
+    @JoinColumn
+    private Show show;
 }

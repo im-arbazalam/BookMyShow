@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 
 import java.sql.Date;
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="shows")
@@ -23,5 +25,19 @@ public class Show {
     private LocalTime time;
 
     private Date date;
+
+    @ManyToOne
+    @JoinColumn
+    private Movie movie;
+
+    @ManyToOne
+    @JoinColumn
+    private Theater theater;
+
+    @OneToMany(mappedBy = "show",cascade = CascadeType.ALL)
+    private List<ShowSeat> showSeatList = new ArrayList<>();
+
+    @OneToMany(mappedBy = "show",cascade = CascadeType.ALL)
+    private List<Ticket> ticketList = new ArrayList<>();
 
 }

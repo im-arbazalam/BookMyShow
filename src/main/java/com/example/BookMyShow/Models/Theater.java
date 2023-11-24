@@ -7,6 +7,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Table(name = "theater")
 @Data
@@ -22,4 +25,11 @@ public class Theater {
 
     @Column(unique = true)
     private String location;
+
+    //Keeping in mind the parent class
+    @OneToMany(mappedBy = "theater",cascade = CascadeType.ALL)
+    private List<TheaterSeat> theaterSeatList = new ArrayList<>();
+
+    @OneToMany(mappedBy = "theater",cascade = CascadeType.ALL)
+    private List<Show> showList = new ArrayList<>();
 }
